@@ -1,0 +1,44 @@
+Giovanni Rosati
+OSU ID# 932510038
+rosatig@oregonstate.edu
+
+February 17, 2016
+Project 3 README
+CS_199_400_W2016
+
+
+The program can be compiled by typing “make” in the directory containing the uncompressed files from the rosatig.zip archive. 
+
+*****  Please use the proj3.cpp file in my zip file as I had to add the following so the attack
+functions work properly:
+#include <time.h> 
+srand(time(0));
+
+The makefile will look for the following files:
+proj3.cpp
+node.hpp
+myll.cpp
+monster.cpp
+dragon.cpp
+firedragon.cpp
+goblin.cpp
+icedragon.cpp
+troll.cpp
+
+and an executable file named “prog” will be created in the same directory. 
+
+Any object files that were created can be removed by typing.
+
+Three things I found difficult:
+1) Struggled with how to implement a Struct as part of a Class
+2) Finding time to write descriptions for functions
+3) Creating a new project in Visual Studio that imports existing code
+from gitHub.
+
+Three things I learned:
+1) How to use a struct  within a class for a linked list
+2) How to create a new project in Visual Studio that imports existing code
+from gitHub.
+3) 
+
+
